@@ -4,6 +4,7 @@
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
+    connect(ui->act_quit, &QAction::triggered, this, &MainWindow::close);
     connect(ui->act_authors, &QAction::triggered, this, &MainWindow::About_Lab1);
     connect(ui->cb_weekdays, QOverload<int>::of(&QComboBox::currentIndexChanged), this, &MainWindow::ChangedComboxIndex);
 }
