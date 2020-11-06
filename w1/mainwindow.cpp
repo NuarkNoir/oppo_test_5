@@ -13,7 +13,8 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::About_Lab1() {
-
+    auto win_about = new About();
+    win_about->show();
 }
 
 void MainWindow::ChangedComboxIndex(int newIdx) {

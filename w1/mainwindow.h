@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QTextCharFormat>
+#include "about.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
