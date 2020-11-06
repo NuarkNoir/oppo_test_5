@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Resources/horizontal_on_white_by_logaster.png</file>
+    </qresource>
+</RCC>
