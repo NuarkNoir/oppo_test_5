@@ -19,5 +19,6 @@ public:
 
 private slots:
     void About_Lab1();
+    void ChangedComboxIndex(int newIdx);
 };
 #endif // MAINWINDOW_H
