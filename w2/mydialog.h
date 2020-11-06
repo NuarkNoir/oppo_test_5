@@ -2,20 +2,20 @@
 #define MYDIALOG_H
 
 #include <QDialog>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QSpinBox>
+#include <QTextEdit>
+#include <QComboBox>
+#include <QPushButton>
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class MyDialog; }
-QT_END_NAMESPACE
-
-class MyDialog : public QDialog
-{
+class MyDialog : public QDialog {
     Q_OBJECT
+
+private:
 
 public:
     MyDialog(QWidget *parent = nullptr);
     ~MyDialog();
-
-private:
-    Ui::MyDialog *ui;
 };
 #endif // MYDIALOG_H
