@@ -26,6 +26,9 @@ void MainWindow::ChangedComboxIndex(int newIdx) {
         if (i == newIdx+1) {
             format.setForeground(qvariant_cast<QColor>("green"));
         }
+        else if (i > 5) {
+            format.setForeground(qvariant_cast<QColor>("red"));
+        }
 
         ui->cal_curr_year->setWeekdayTextFormat(Qt::DayOfWeek(i), format);
     }
